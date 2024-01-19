@@ -1,0 +1,214 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-image: url("photo-1518655048521-f130df041f66.png");
+  }
+  
+  header {
+    background-color: #4a4a4a;body {
+        font-family: 'Inter', sans-serif; /* Modern, clean font */
+        font-size: 18px; /* Slightly larger base font for readability */
+        background-color: #f4f4f4; /* Softer background */
+        background-image: url("photo-1518655048521-f130df041f66.png");
+        background-size: cover; /* Ensure background covers full screen */
+      }
+      
+      header {
+        background-color: #4a4a4a;
+        padding: 60px 0; /* Increased padding for better spacing */
+        text-align: center;
+        background-image: url("1226da8f422d416a9cef395f982d9a08.svg");
+        background-position: center; /* Center the gradient */
+        background-blend-mode: multiply; /* Blend gradient with background image */
+      }
+      
+      header h1 {
+        font-weight: 700;
+        margin-bottom: 20px;
+      }
+      
+      header p {
+        font-size: 16px;
+        color: #b5b5b5; /* Lighter color for subtitle */
+      }
+      
+      #about {
+        padding: 80px 0; /* Increased padding for better spacing */
+        text-align: center;
+      }
+      
+      #about img {
+        border-radius: 50%;
+        width: 250px; /* Slightly larger image */
+        border: 5px solid #fff;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+        transition: all 0.3s ease-in-out;
+      }
+      
+      #about p {
+        color: #666;
+        line-height: 1.8; /* Increased line height for better readability */
+      }
+      
+      #skills, #projects, #resume, #contact {
+        padding: 80px 0; /* Increased padding */
+      }
+      
+      h2 {
+        font-size: 24px; /* Larger headings */
+        margin-bottom: 30px; /* Increased spacing below headings */
+      }
+      
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between; /* Evenly distribute list items */
+      }
+      
+      li {
+        margin: 10px 0;
+        padding: 15px 20px;
+        border-radius: 10px;
+        font-weight: 600; /* Bolder font for list items */
+      }
+      
+      .project {
+        margin-top: 40px; /* Increased spacing between projects */
+      }
+      
+      a {
+        color: #4a4a4a;
+        transition: all 0.2s ease-in-out;
+      }
+      
+      a:hover {
+        color: #007bff;
+        text-decoration: underline; /* Underline on hover */
+      }
+      
+      footer {
+        padding: 20px 0; /* Increased padding */
+        font-size: 14px;
+      }
+      
+      @media (max-width: 768px) {
+        #about img {
+          width: 100%;
+        }
+      }
+      
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+    background-image: url("1226da8f422d416a9cef395f982d9a08.svg");
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  header p {
+    font-size: 1.5em;
+    margin-top: 20px;
+    font-weight: 300;
+  }
+  
+  #about {
+    padding: 60px;
+    text-align: center;
+  }
+  
+  #about img {
+    border-radius: 50%;
+    width: 200px;
+    border: 10px solid #fff;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #about img:hover {
+    transform: scale(1.1);
+  }
+  
+  #about p {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  #skills, #projects, #resume, #contact {
+    padding: 60px;
+  }
+  
+  h2 {
+    color: #4a4a4a;
+    border-bottom: 2px solid #4a4a4a;
+    padding-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin: 0 10px;
+    background-color: #4a4a4a;
+    color: #fff;
+    padding: 12px 18px;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  li:hover {
+    background-color: #555; 
+  }
+  
+  .project {
+    margin-top: 30px;
+  }
+  
+  .project h3 {
+    color: #4a4a4a;
+  }
+  
+  .project p {
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  a {
+    color: #4a4a4a;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #007bff; 
+  }
+  
+  footer {
+    background-color: #4a4a4a;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 0.9em;
+  }
+  
+
+  @media (max-width: 768px) {
+    #about img {
+      width: 100%;
+    }
+  
+   
+  }
+  
